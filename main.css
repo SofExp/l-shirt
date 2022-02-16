@@ -279,7 +279,7 @@ ul > li {
 .choise__window{
   height: 650px;
   width: 1080px;
-  border: 5px solid var(--yellow);
+  border: 10px solid var(--yellow);
 
 }
 .filter {
