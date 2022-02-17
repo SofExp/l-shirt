@@ -72,7 +72,7 @@ ul > li {
   height: inherit;
   width: 100%;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 .central_share_guys{
   background: url(./images/web-ready/decor/header-guys.png) center center / contain no-repeat;
@@ -86,6 +86,7 @@ ul > li {
   text-decoration: none;
   text-align: center;
   color: inherit;
+  z-index: 0;
 }
 .mail__title{
   margin-bottom: 3px;
@@ -266,6 +267,7 @@ ul > li {
   position: relative;
   top: 12%;
   left: 15%;
+  display: inline-flex;
   
 }
 .product__choice{
@@ -280,7 +282,10 @@ ul > li {
   height: 650px;
   width: 1080px;
   border: 10px solid var(--yellow);
-
+}
+.choise__specifications{
+  background-color: var(--yellow);
+  
 }
 .filter {
   display: flex;
