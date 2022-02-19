@@ -297,10 +297,15 @@ ul > li {
   align-content: center;
   justify-content: center;
 }
+.choice__view__list{
+  display: flex;
+}
 .choice__view__item{
   display: none;
   position: relative;
   width: inherit;
+  flex-direction: column;
+  align-items: center;
 }
 .choice__view__img{
   width: 90%;
