@@ -405,6 +405,7 @@ ul > li {
 .choise__size__step-not_available{
   color: #e0d9c8;
   pointer-events: none; /* https://www.youtube.com/shorts/3OkcwjLA4Nc */
+  
 }
 .choise__color{
   height: 35px;
