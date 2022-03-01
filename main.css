@@ -318,7 +318,7 @@ ul > li {
   width: 100%;
   height: 100%;
 }
-.choice__view__item--active{
+.choice__view__item-active{
   display: flex;
 }
 .specifications__info{
@@ -473,7 +473,7 @@ ul > li {
 .choise__color__link--red{
   background-color: #d82727;
 }
-.choise__color__item-activ{
+.choise__color__item-active{
   
   border-radius: 35px;
   border: 4px solid var(--yellow);
