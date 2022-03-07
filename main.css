@@ -613,6 +613,9 @@ ul > li {
   width: 1100px;
   overflow: hidden;
 }
+.products_info_size{
+  display: flex;
+}
 .products_info_description{
   width: 336px;
   margin: 40px 10px;
@@ -673,6 +676,25 @@ ul > li {
 .instruction_img{
   width: 100%;
   height: 100%;
+}
+.size_table{
+  height: 433px;
+  width: 762px;
+}
+table{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+td, th{
+  border: 2px solid #e0d9c8;  
+  text-align: center;
+  min-width: 75px;
+  height: 44px;
 }
 .btn{
   text-transform: uppercase;
