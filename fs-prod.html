@@ -116,186 +116,229 @@
 
     <section class="products">
       <div class="container container-products__info">
-        <ul class="filter">
+        <ul class="filter filter_info_prod">
           <li class="filter__item filter__item--active">
-            <a href="#" data-filter="popular" class="filter__link">описание</a>
+            <a href="#" data-filter="description" class="filter__link">описание</a>
           </li>
           <li class="filter__item">
-            <a href="#" data-filter="new" class="filter__link">таблица размеров</a>
+            <a href="#" data-filter="size-table" class="filter__link">таблица размеров</a>
           </li>
           <li class="filter__item">
-            <a href="#" data-filter="bestsellers" class="filter__link">условия доставки</a>
+            <a href="#" data-filter="delivery-terms" class="filter__link">условия доставки</a>
           </li>
           <li class="filter__item">
-            <a href="#" data-filter= specials class="filter__link">о бренде</a>
+            <a href="#" data-filter= "brand-info" class="filter__link">о бренде</a>
           </li>
         </ul>
         <ul class="products__info">
-          <li class="products_info_description">
-            <div class="products_info_description_list">
-              <svg class="washing_icon">
-                <img src="./images/icons/washing_01.svg" alt="" class="washing_icon_img">
-              </svg>
-              <div class="p_i_description_text">Стирать при температуре 30˚ С</div>
-            </div>
-            <div class="products_info_description_list">
-              <svg class="washing_icon">
-                <img src="./images/icons/washing_02.svg" alt="" class="washing_icon_img">
-              </svg>
-              <div class="p_i_description_text">Не отбеливать</div>
-            </div>
-            <div class="products_info_description_list">
-              <svg class="washing_icon">
-                <img src="./images/icons/washing_03.svg" alt="" class="washing_icon_img">
-              </svg>
-              <div class="p_i_description_text">Гладить теплым утюгом <br> с внутренней стороны</div>
-            </div>
-            <div class="products_info_description_list">
-              <svg class="washing_icon">
-                <img src="./images/icons/washing_04.svg" alt="" class="washing_icon_img">
-              </svg>
-              <div class="p_i_description_text">Не подвергать химической чистке</div>
-            </div>
-            <div class="products_info_description_list">
-              <svg class="washing_icon">
-                <img src="./images/icons/washing_05.svg" alt="" class="washing_icon_img">
-              </svg>
-              <div class="p_i_description_text">Не сушить в барабане</div>              
-            </div>
-            <div class="line_products_info"></div>
-            <div class="p_i_description_text_right">
-              Футболка из приятной ткани с качественным принтом, это одна из самых универсальных вещей <br> 
-              в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен <br>
-              свободный дресс-код.
+          <li class="products_info_item description">
+            <div class="products__info_description_block">
+              <div class="description_block_left">
+                <div class="products_info_description_item">
+                  <svg class="washing_icon">
+                    <img src="./images/icons/washing_01.svg" alt="" class="washing_icon_img">
+                  </svg>
+                  <div class="p_i_description_text">Стирать при температуре 30˚ С</div>
+                </div>
+                <div class="products_info_description_item">
+                  <svg class="washing_icon">
+                    <img src="./images/icons/washing_02.svg" alt="" class="washing_icon_img">
+                  </svg>
+                  <div class="p_i_description_text">Не отбеливать</div>
+                </div>
+                <div class="products_info_description_item">
+                  <svg class="washing_icon">
+                    <img src="./images/icons/washing_03.svg" alt="" class="washing_icon_img">
+                  </svg>
+                  <div class="p_i_description_text">Гладить теплым утюгом <br> с внутренней стороны</div>
+                </div>
+                <div class="products_info_description_item">
+                  <svg class="washing_icon">
+                    <img src="./images/icons/washing_04.svg" alt="" class="washing_icon_img">
+                  </svg>
+                  <div class="p_i_description_text">Не подвергать химической чистке</div>
+                </div>
+                <div class="products_info_description_item">   
+                  <svg class="washing_icon">
+                    <img src="./images/icons/washing_05.svg" alt="" class="washing_icon_img">
+                  </svg>
+                  <div class="p_i_description_text">Не сушить в барабане</div>              
+                </div>
+              </div>              
+              <hr class="hr_line_description_block">
+              <div class="p_i_description_text_right">
+                Футболка из приятной ткани с качественным принтом, это одна из самых универсальных вещей <br> 
+                в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен <br>
+                свободный дресс-код.
+              </div>
+            </div>            
+          </li>
+          <li class="products_info_item size-table">
+            <div class="products_info_item_size-table">
+              <div class="p_i_size_instruction">
+                <div class="size_instruction_img">
+                  <img src="./images/web-ready/tshirts/tshirt_00.png" alt="" class="instruction_img">
+                </div>
+                <div class="p_i_size_text_list">
+                  <div class="p_i_size_text_">1. &ensp; Измерьте ширину, см. <br>
+                    &emsp; &nbsp; (от подмышки до подмышки)
+                  </div>
+                  <div class="p_i_size_text_">2. &ensp; Измерьте длину, см. <br>
+                    &emsp; &nbsp; (от верхней точки плеча до низа)
+                  </div>
+                  <div class="p_i_size_text_">3. &ensp; Сверьте данные с таблицей
+                  </div>
+                </div>
+              </div>
+              <div class="size_table">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Мужские</th>
+                      <th></th>
+                      <th>xs</th>
+                      <th>s</th>
+                      <th>m</th>
+                      <th>l</th>
+                      <th>xl</th>
+                      <th>2xl</th>
+                      <th>3xl</th>
+                    </tr>
+                    <tr>
+                      <td>Pазмер RUS</td>
+                      <td></td>
+                      <td>44</td>
+                      <td>46</td>
+                      <td>48</td>
+                      <td>50</td>
+                      <td>52</td>
+                      <td>54</td>
+                      <td>56</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина, см.</td>
+                      <td></td>
+                      <td>46</td>
+                      <td>48</td>
+                      <td>50</td>
+                      <td>52</td>
+                      <td>54</td>
+                      <td>56</td>
+                      <td>58</td>
+                    </tr>
+                    <tr>
+                      <td>Длина, см.</td>
+                      <td></td>
+                      <td>65</td>
+                      <td>67</td>
+                      <td>68</td>
+                      <td>71</td>
+                      <td>74</td>
+                      <td>74</td>
+                      <td>74</td>
+                    </tr>
+                    <tr>
+                      <th>Женские</th>
+                      <th>xxs</th>
+                      <th>xs</th>
+                      <th>s</th>
+                      <th>m</th>
+                      <th>l</th>
+                      <th>xl</th>
+                      <th>2xl</th>
+                      <th>3xl</th>
+                    </tr>
+                    <tr>
+                      <td>Pазмер RUS</td>
+                      <td>36-38</td>
+                      <td>38-40</td>
+                      <td>40-42</td>
+                      <td>42-44</td>
+                      <td>44-46</td>
+                      <td>46-48</td>
+                      <td>48-50</td>
+                      <td>50-52</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина, см.</td>
+                      <td>38</td>
+                      <td>40</td>
+                      <td>42</td>
+                      <td>44</td>
+                      <td>46</td>
+                      <td>48</td>
+                      <td>50</td>
+                      <td>52</td>
+                    </tr>
+                    <tr>
+                      <td>Длина, см.</td>
+                      <td>61</td>
+                      <td>61</td>
+                      <td>62</td>
+                      <td>64</td>
+                      <td>71</td>
+                      <td>74</td>
+                      <td>74</td>
+                      <td>74</td>
+                    </tr>
+                    <tr>
+                      <td>Обхват груди, см.</td>
+                      <td>68-76</td>
+                      <td>76-80</td>
+                      <td>80-84</td>
+                      <td>84-88</td>
+                      <td>88-92</td>
+                      <td>92-96</td>
+                      <td>96-100</td>
+                      <td>100-104</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </li>
-          <li class="products_info_size">
-            <div class="p_i_size_instruction">
-              <div class="size_instruction_img">
-                <img src=".images/web-ready/tshirts/tshirt_00.png" alt="" class="instruction_img">
+          <li class="products_info_item delivery-terms">
+            <div class="delivery_terms">
+              <div class="delivery_terms_logo">
+                <img src="images/web-ready/content/logos/express.png" alt="" class="delivery_terms_logo_img">
               </div>
-              <div class="p_i_size_text_list">
-                <div class="p_i_size_text_">1. &ensp; Измерьте ширину, см. <br>
-                  &emsp; &nbsp; (от подмышки до подмышки)
-                </div>
-                <div class="p_i_size_text_">2. &ensp; Измерьте длину, см. <br>
-                  &emsp; &nbsp; (от верхней точки плеча до низа)
-                </div>
-                <div class="p_i_size_text_">3. &ensp; Сверьте данные с таблицей
-                </div>
+              <hr class="hr_line_delivery_terms">
+              <div class="delivery_terms_text">
+                <p>
+                  Доставка по России и странам Ближнего Зарубежья (Украина, Белорусия, Молдавия, Польша, <br>
+                  Эстония, Болгария, Румыния, Чехия, Словакия, Венгрия и т.д.), всего 400 руб. <br>
+                </p>
+                <p>
+                  Мы так же доставляем в США, Японию, Австралию, Англию, Италию, Испанию и т.д. , стоимость <br>
+                  доставки около 600 руб.
+                </p>
+                <p>
+                  (Цена приведена для ориентира и может отличаться в зависимости от дальности и веса <br>
+                  посылки)
+                </p>
               </div>
             </div>
-            <div class="size_table">
-              <table>
-                <tbody>
-                  <tr>
-                    <th>Мужские</th>
-                    <th></th>
-                    <th>xs</th>
-                    <th>s</th>
-                    <th>m</th>
-                    <th>l</th>
-                    <th>xl</th>
-                    <th>2xl</th>
-                    <th>3xl</th>
-                  </tr>
-                  <tr>
-                    <td>Pазмер RUS</td>
-                    <td></td>
-                    <td>44</td>
-                    <td>46</td>
-                    <td>48</td>
-                    <td>50</td>
-                    <td>52</td>
-                    <td>54</td>
-                    <td>56</td>
-                  </tr>
-                  <tr>
-                    <td>Ширина, см.</td>
-                    <td></td>
-                    <td>46</td>
-                    <td>48</td>
-                    <td>50</td>
-                    <td>52</td>
-                    <td>54</td>
-                    <td>56</td>
-                    <td>58</td>
-                  </tr>
-                  <tr>
-                    <td>Длина, см.</td>
-                    <td></td>
-                    <td>65</td>
-                    <td>67</td>
-                    <td>68</td>
-                    <td>71</td>
-                    <td>74</td>
-                    <td>74</td>
-                    <td>74</td>
-                  </tr>
-                  <tr>
-                    <th>Женские</th>
-                    <th>xxs</th>
-                    <th>xs</th>
-                    <th>s</th>
-                    <th>m</th>
-                    <th>l</th>
-                    <th>xl</th>
-                    <th>2xl</th>
-                    <th>3xl</th>
-                  </tr>
-                  <tr>
-                    <td>Pазмер RUS</td>
-                    <td>36-38</td>
-                    <td>38-40</td>
-                    <td>40-42</td>
-                    <td>42-44</td>
-                    <td>44-46</td>
-                    <td>46-48</td>
-                    <td>48-50</td>
-                    <td>50-52</td>
-                  </tr>
-                  <tr>
-                    <td>Ширина, см.</td>
-                    <td>38</td>
-                    <td>40</td>
-                    <td>42</td>
-                    <td>44</td>
-                    <td>46</td>
-                    <td>48</td>
-                    <td>50</td>
-                    <td>52</td>
-                  </tr>
-                  <tr>
-                    <td>Длина, см.</td>
-                    <td>61</td>
-                    <td>61</td>
-                    <td>62</td>
-                    <td>64</td>
-                    <td>71</td>
-                    <td>74</td>
-                    <td>74</td>
-                    <td>74</td>
-                  </tr>
-                  <tr>
-                    <td>Обхват груди, см.</td>
-                    <td>68-76</td>
-                    <td>76-80</td>
-                    <td>80-84</td>
-                    <td>84-88</td>
-                    <td>88-92</td>
-                    <td>92-96</td>
-                    <td>96-100</td>
-                    <td>100-104</td>
-                  </tr>
-                </tbody>
-              </table>
+          </li>
+          <li class="products_info_item brand-info">
+            <div class="brand_info_block">
+              <div class="brand_info_logo">
+                <img src="images/web-ready/content/logos/harley.png" alt="" class="brand_info_logo_img">
+              </div>
+              <hr class="hr_line_brand_info">
+              <div class="brand_info_text">
+                <p>
+                  Марка Hurley основана на любви к океану с его постоянством в этом изменчивом мире. <br>
+                  Она осуществляет мечты молодого поколения, сочетая музыку и искусство в дизайне одежды, <br>
+                  обуви и аксессуаров. Наполненная духом пляжной культуры продукция Hurley предлагает новое <br>
+                  восприятие комфорта и индивидуальности. Hurley выбирает только тот, кто страстно влюблён <br>
+                  в свободу.
+                </p>
+              </div>
             </div>
           </li>
         </ul>
       </div>
-
     </section>
-
     <footer class="footer">
       <div class="container footer__container">
         <nav class="site-menu">
@@ -425,5 +468,6 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="./scripts/color-choise.js"></script>
   <script src="./scripts/choise-size.js"></script>
+  <script src="./scripts/info-prod.js"></script>
  
 </body>
