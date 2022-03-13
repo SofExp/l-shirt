@@ -32,8 +32,8 @@ body{
   margin: 0 auto;
   width: 1300px;
 }
-.about-product-container{
-  position: relative;  
+.about-product__container{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,8 +297,8 @@ ul > li {
 }
 .selection-box{
   width: 50%;
-  height: 596px;
-  padding: 27px;
+  height: 100%;
+  overflow: hidden;
 }
 .view-window{
   background-color: var(--yellow);
@@ -334,12 +334,13 @@ ul > li {
 .specifications-info{
   display: block;
 }
-.selection-box-up{
-  height: 153px;
+.selection-box__up{
+  height: 122px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
+  padding: 27px;
 }
 .name-small{
   color: var(--yellow);
@@ -353,6 +354,7 @@ ul > li {
   color: var(--black);
   text-transform: uppercase;
   margin: 0;
+  line-height: 1.1em;
 }
 .product-price{
   width: 95px;
@@ -367,8 +369,8 @@ ul > li {
   align-items: center;
   justify-content: center;
 }
-.selection-box-middle{
-  height: 213px;
+.selection-box__middle{
+  height: 176px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -376,21 +378,23 @@ ul > li {
   color: var(--black);
   font-size: 13px;
   line-height: 2.3;
+  padding: 27px;
+
 }
-.selection-box-bottom{
-  height: 212px;
-  margin-top: 28px;
+.selection-box__bottom{
+  height: 186px;
+  padding: 27px;
 }
-.selection-box__hr-line{ 
+.hr-line-gorizontal{
   margin: 0;
 	padding: 0;
 	height: 1px;
 	border: none;
 	border-top: 2px solid #e0d9c8;
-  width: 550px;
-  position: absolute;
+  width: 100%;
+  /* position: absolute;
   top: inherit;
-  left: 50%;
+  left: 50%; */
 }
 .size-selection{
   display: flex;
@@ -608,24 +612,24 @@ ul > li {
   border: 10px solid var(--yellow);
   width: 1100px;  
 }
-.description-washing__item{
+.description-block__left-item{
   display: flex;
   font-size: 13px;
   justify-content: flex-start;
   align-items: center;
 }
-.description-washing__icon{
+.description-block__left-icon{
   padding-top: 0px;
   height: 20px;
   width: 0px;
   margin-right: 0px;
 }
-.description-washing__img{  
+.description-block__left-img{  
   height: 20px;
   width: 25px;
   margin-right: 20px;
 }
-.description-block__hr-line{
+.hr-line{
   margin: 0;
   padding: 0;
   border: 1px solid #e0d9c8;
@@ -635,7 +639,7 @@ ul > li {
   font-size: 13px;
   padding: 45px 0px 0px 48px;
 }
-.size-table-instruction{
+.size-table-block__left{
   height: 432px;
   width: 358px;
   display: flex;
@@ -643,26 +647,19 @@ ul > li {
   align-items: center;
   flex-direction: column;
 }
-.size-table-instruction__img{
+.size-table-block__left-img{
   height: 203px;
   width: 227px;
 }
-.size-table-instruction__list{
+.size-table-block__left-list{
   display: flex;
   flex-direction: column;
 }
-.size-table-instruction__item{
+.size-table-block__left-item{
   font-size: 13px;
   margin-bottom: 13px;
 }
-.instruction_img{
-  width: 100%;
-  height: 100%;
-}
-/* .size-table{
-  height: 432px;
-  width: 742px;
-} */
+
 table{
   table-layout: fixed;
   height: 100%;
@@ -707,24 +704,18 @@ td:nth-child(1) {
   display: flex;
   overflow: hidden;
 }
-.delivery-terms__logo{
+.delivery-terms-block__logo{
   width: 339px;
   height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.delivery-terms__img{
+.delivery-terms-block__logo-img{
   width: 168px;
   height: 153px;
 }
-.delivery-terms__hr-line{
-  margin: 0;
-  padding: 0;
-  border: 1px solid #e0d9c8;
-  height: 240px;
-}
-.delivery-terms__text{
+.delivery-terms-block__text{
   font-size: 14px;
   padding: 29px 47px;
 }
@@ -733,24 +724,18 @@ td:nth-child(1) {
   display: flex;
   overflow: hidden;
 }
-.brand-info__logo{
+.brand-info-block__logo{
   width: 339px;  
   display: flex;
   align-items: flex-start;
   justify-content: center; 
   margin-top: 60px;
 }
-.brand-info__hr-line{
-  margin: 0;
-  padding: 0;
-  border: 1px solid #e0d9c8;
-  height: 240px;
-}
-.brand-info__img{
+.brand-info-block__logo-img{
   object-fit: cover;
   width: 224px;
 }
-.brand_info_text{
+.brand-info-block__text{
   font-size: 14px;
   padding: 29px 47px;
 }
@@ -759,7 +744,7 @@ td:nth-child(1) {
   width: 100%;
   display: flex;
 }
-.description-block-left{
+.description-block__left{
   width: 303px;
   height: 191px;
   padding: 44px 0px 45px 35px;
